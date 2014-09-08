@@ -5,10 +5,12 @@ Produces CSV form Drush PML output written to files
 
 This is very rough as I wrote it quickly to do a specific job ;)
 
-To use this tol you need to write the output for the sites you want to compare
+Have a look at the CSV file in the csv directory for an example output
+
+To use this tool you need to write the output for the sites you want to compare
 to files by using drush pml eg:
 
-  drush --uri=demo.com pml > demo.com.txt
+$ drush --uri=demo.com pml > demo.com.txt
 
 Do this for all the sites you want to compare then put these files somewhere
 readable like the pml_output directory
