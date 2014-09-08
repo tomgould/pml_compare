@@ -1,0 +1,22 @@
+pml_compare
+===========
+
+Produces CSV form Drush PML output written to files
+
+This is very rough as I wrote it quickly to do a specific job ;)
+
+To use this tol you need to write the output for the sites you want to compare
+to files by using drush pml eg:
+
+  drush --uri=demo.com pml > demo.com.txt
+
+Do this for all the sites you want to compare then put these files somewhere
+readable like the pml_output directory
+
+When you have the files edit the pml_compare.php file to include these
+file locations and the execute the script with PHP on the CLI eg:
+
+$ cd /var/www/pml_compare
+$ php pml_compare.php
+
+This will then write a CSV to the ./csv folder
