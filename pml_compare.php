@@ -25,9 +25,10 @@
  */
 
 $sites = array(
-  'site1' => parse_pml('pml_output/site1.com.pml.txt'),
-  'site2' => parse_pml('pml_output/site2.com.pml.txt'),
-  'site3' => parse_pml('pml_output/site3.com.pml.txt'),
+  'TomGould' => parse_pml('pml_output/tom-gould.txt'),
+  'site1'    => parse_pml('pml_output/site1.com.pml.txt'),
+  'site2'    => parse_pml('pml_output/site2.com.pml.txt'),
+  'site3'    => parse_pml('pml_output/site3.com.pml.txt'),
 );
 
 // Make the container for the CSV and the first column data (module name)

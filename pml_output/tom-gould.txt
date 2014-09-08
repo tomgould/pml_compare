@@ -1,0 +1,159 @@
+ Package                              Name                                                                  Type    Status         Version             
+ Administration                       Admin (admin)                                                         Module  Enabled        X.X-X.X 
+ Caching                              Varnish (varnish)                                                     Module  Disabled       X.X-X.X       
+ CCK                                  CCK (cck)                                                             Module  Not installed  X.X-X.X         
+ CCK                                  Content Migrate (content_migrate)                                     Module  Not installed  X.X-X.X         
+ Chaos tool suite                     Bulk Export (bulk_export)                                             Module  Not installed  X.X-X.X             
+ Chaos tool suite                     Chaos tools (ctools)                                                  Module  Enabled        X.X-X.X             
+ Chaos tool suite                     Chaos Tools (CTools) AJAX Example (ctools_ajax_sample)                Module  Not installed  X.X-X.X             
+ Chaos tool suite                     Chaos Tools (CTools) Plugin Example (ctools_plugin_example)           Module  Not installed  X.X-X.X             
+ Chaos tool suite                     Custom content panes (ctools_custom_content)                          Module  Not installed  X.X-X.X             
+ Chaos tool suite                     Custom rulesets (ctools_access_ruleset)                               Module  Not installed  X.X-X.X             
+ Chaos tool suite                     Page manager (page_manager)                                           Module  Not installed  X.X-X.X             
+ Chaos tool suite                     Stylizer (stylizer)                                                   Module  Not installed  X.X-X.X             
+ Chaos tool suite                     Term Depth access (term_depth)                                        Module  Not installed  X.X-X.X             
+ Chaos tool suite                     Views content panes (views_content)                                   Module  Not installed  X.X-X.X             
+ Context                              Context (context)                                                     Module  Not installed  X.X-X.X       
+ Context                              Context layouts (context_layouts)                                     Module  Not installed  X.X-X.X       
+ Context                              Context UI (context_ui)                                               Module  Not installed  X.X-X.X       
+ Core                                 Aggregator (aggregator)                                               Module  Not installed  X.X                
+ Core                                 Block (block)                                                         Module  Enabled        X.X                
+ Core                                 Blog (blog)                                                           Module  Not installed  X.X                
+ Core                                 Book (book)                                                           Module  Not installed  X.X                
+ Core                                 Color (color)                                                         Module  Enabled        X.X                
+ Core                                 Comment (comment)                                                     Module  Enabled        X.X                
+ Core                                 Contact (contact)                                                     Module  Not installed  X.X                
+ Core                                 Content translation (translation)                                     Module  Not installed  X.X                
+ Core                                 Contextual links (contextual)                                         Module  Not installed  X.X                
+ Core                                 Dashboard (dashboard)                                                 Module  Enabled        X.X                
+ Core                                 Database logging (dblog)                                              Module  Enabled        X.X                
+ Core                                 Field (field)                                                         Module  Enabled        X.X                
+ Core                                 Field SQL storage (field_sql_storage)                                 Module  Enabled        X.X                
+ Core                                 Field UI (field_ui)                                                   Module  Enabled        X.X                
+ Core                                 File (file)                                                           Module  Enabled        X.X                
+ Core                                 Filter (filter)                                                       Module  Enabled        X.X                
+ Core                                 Forum (forum)                                                         Module  Not installed  X.X                
+ Core                                 Help (help)                                                           Module  Not installed  X.X                
+ Core                                 Image (image)                                                         Module  Enabled        X.X                
+ Core                                 List (list)                                                           Module  Enabled        X.X                
+ Core                                 Locale (locale)                                                       Module  Not installed  X.X                
+ Core                                 Menu (menu)                                                           Module  Enabled        X.X                
+ Core                                 Node (node)                                                           Module  Enabled        X.X                
+ Core                                 Number (number)                                                       Module  Enabled        X.X                
+ Core                                 OpenID (openid)                                                       Module  Not installed  X.X                
+ Core                                 Options (options)                                                     Module  Enabled        X.X                
+ Core                                 Overlay (overlay)                                                     Module  Disabled       X.X                
+ Core                                 Path (path)                                                           Module  Enabled        X.X                
+ Core                                 PHP filter (php)                                                      Module  Not installed  X.X                
+ Core                                 Poll (poll)                                                           Module  Not installed  X.X                
+ Core                                 RDF (rdf)                                                             Module  Enabled        X.X                
+ Core                                 Search (search)                                                       Module  Enabled        X.X                
+ Core                                 Shortcut (shortcut)                                                   Module  Not installed  X.X                
+ Core                                 Statistics (statistics)                                               Module  Not installed  X.X                
+ Core                                 Syslog (syslog)                                                       Module  Not installed  X.X                
+ Core                                 System (system)                                                       Module  Enabled        X.X                
+ Core                                 Taxonomy (taxonomy)                                                   Module  Enabled        X.X                
+ Core                                 Testing (simpletest)                                                  Module  Not installed  X.X                
+ Core                                 Text (text)                                                           Module  Enabled        X.X                
+ Core                                 Toolbar (toolbar)                                                     Module  Disabled       X.X                
+ Core                                 Tracker (tracker)                                                     Module  Not installed  X.X                
+ Core                                 Trigger (trigger)                                                     Module  Not installed  X.X                
+ Core                                 Update manager (update)                                               Module  Enabled        X.X                
+ Core                                 User (user)                                                           Module  Enabled        X.X                
+ Date/Time                            Date (date)                                                           Module  Not installed  X.X-X.X             
+ Date/Time                            Date All Day (date_all_day)                                           Module  Not installed  X.X-X.X             
+ Date/Time                            Date API (date_api)                                                   Module  Not installed  X.X-X.X             
+ Date/Time                            Date Context (date_context)                                           Module  Not installed  X.X-X.X             
+ Date/Time                            Date Migration (date_migrate)                                         Module  Not installed  X.X-X.X             
+ Date/Time                            Date Popup (date_popup)                                               Module  Not installed  X.X-X.X             
+ Date/Time                            Date Repeat API (date_repeat)                                         Module  Not installed  X.X-X.X             
+ Date/Time                            Date Repeat Field (date_repeat_field)                                 Module  Not installed  X.X-X.X             
+ Date/Time                            Date Tools (date_tools)                                               Module  Not installed  X.X-X.X             
+ Date/Time                            Date Views (date_views)                                               Module  Not installed  X.X-X.X             
+ Development                          Coder (coder)                                                         Module  Enabled        X.X-X.X       
+ Development                          Coder Review (coder_review)                                           Module  Enabled        X.X-X.X       
+ Development                          Coder Upgrade (coder_upgrade)                                         Module  Not installed  X.X-X.X       
+ Development                          Devel (devel)                                                         Module  Enabled        X.X-X.X             
+ Development                          Devel generate (devel_generate)                                       Module  Enabled        X.X-X.X             
+ Development                          Devel node access (devel_node_access)                                 Module  Not installed  X.X-X.X             
+ Development                          Drupal for Firebug (drupalforfirebug)                                 Module  Not installed  X.X-X.X             
+ Development                          Drupal for Firebug Preprocessor (drupalforfirebug_preprocess)         Module  Not installed  X.X-X.X             
+ Development                          Grammar Parser UI (gpui)                                              Module  Not installed  X.X-X.X         
+ Development                          Theme developer (devel_themer)                                        Module  Not installed  X.X-X.X         
+ Features                             Autotag Rules (autotag_rules)                                         Module  Enabled                            
+ Features                             Date Migration Example (date_migrate_example)                         Module  Not installed  X.X-X.X             
+ Features                             Features (features)                                                   Module  Enabled        X.X-X.X             
+ Features                             ftools (ftools)                                                       Module  Not installed  X.X-X.X             
+ Features                             Node Types (node_types)                                               Module  Enabled                            
+ Features                             SEO page tagger rule (seo_page_tagger_rule)                           Module  Enabled                            
+ Features                             SEO Pages (seo_pages)                                                 Module  Enabled                            
+ Fields                               Entity Reference (entityreference)                                    Module  Enabled        X.X-X.X             
+ Fields                               Entity Reference Behavior Example (entityreference_behavior_example)  Module  Not installed  X.X-X.X             
+ Fields                               Field collection (field_collection)                                   Module  Enabled        X.X-X.X       
+ Fields                               File Field Sources (filefield_sources)                                Module  Enabled        X.X-X.             
+ Fields                               Link (link)                                                           Module  Not installed  X.X-X.X             
+ Fields                               Node Reference (node_reference)                                       Module  Not installed  X.X-X.X             
+ Fields                               References (references)                                               Module  Not installed  X.X-X.X             
+ Fields                               User Reference (user_reference)                                       Module  Not installed  X.X-X.X             
+ Filters                              GeSHi field (geshifield)                                              Module  Enabled        X.X-X.X             
+ Filters                              GeSHi Filter (geshifilter)                                            Module  Enabled        X.X-X.X             
+ Input filters                        Image resize filter (image_resize_filter)                             Module  Enabled        X.X-X.X            
+ Libraries                            Grammar Parser Library (gplib)                                        Module  Not installed  X.X-X.X         
+ Media                                IMCE (imce)                                                           Module  Enabled        X.X-X.             
+ Media                                IMCE Mkdir (imce_mkdir)                                               Module  Enabled        X.X-X.X             
+ Monitoring                           Nagios monitoring (nagios)                                            Module  Not installed  X.X-X.X             
+ Multilingual - Internationalization  Rules translation (rules_iX8n)                                        Module  Not installed  X.X-X.X             
+ mymodule                             mymodule (mymodule)                                                   Module  Not installed                      
+ myredirect                           myredirect (myredirect)                                               Module  Enabled                            
+ Node form columns                    Biblio compatability (nfcbiblio)                                      Module  Not installed  X.X-X.X       
+ Node form columns                    CAPTCHA compatability (nfccaptcha)                                    Module  Not installed  X.X-X.X       
+ Node form columns                    Node form columns (nodeformcols)                                      Module  Enabled        X.X-X.X       
+ node_tagger                          Node Tagger (node_tagger)                                             Module  Enabled                            
+ Other                                Advanced help (advanced_help)                                         Module  Not installed  X.X-X.X             
+ Other                                Advanced help example (help_example)                                  Module  Not installed  X.X-X.X             
+ Other                                Entity API (entity)                                                   Module  Enabled        X.X-X.X             
+ Other                                Entity tokens (entity_token)                                          Module  Enabled        X.X-X.X             
+ Other                                Libraries (libraries)                                                 Module  Enabled        X.X-X.X             
+ Other                                Menu position (menu_position)                                         Module  Enabled        X.X-X.X             
+ Other                                Mollom (mollom)                                                       Module  Enabled        X.X-X.X            
+ Other                                Nodeblock (nodeblock)                                                 Module  Enabled        X.X-X.X             
+ Other                                Pathauto (pathauto)                                                   Module  Enabled        X.X-X.X             
+ Other                                RoleAssign (roleassign)                                               Module  Enabled        X.X-X.X             
+ Other                                SASS / SCSS (sass)                                                    Module  Not installed  X.X-X.X             
+ Other                                Tigerfish Utility module (tigerfish)                                  Module  Enabled        X.X-X.X             
+ Other                                Token (token)                                                         Module  Enabled        X.X-X.X             
+ Other                                Transliteration (transliteration)                                     Module  Not installed  X.X-X.X             
+ Rules                                Rules (rules)                                                         Module  Enabled        X.X-X.X             
+ Rules                                Rules Autotag (rules_autotag)                                         Module  Enabled        X.X-X.X             
+ Rules                                Rules Scheduler (rules_scheduler)                                     Module  Not installed  X.X-X.X             
+ Rules                                Rules UI (rules_admin)                                                Module  Enabled        X.X-X.X             
+ Search Toolkit                       Apache Solr Access (apachesolr_access)                                Module  Not installed  X.X-X.X      
+ Search Toolkit                       Apache Solr framework (apachesolr)                                    Module  Not installed  X.X-X.X      
+ Search Toolkit                       Apache Solr search (apachesolr_search)                                Module  Not installed  X.X-X.X      
+ Social media                         Social media (socialmedia)                                            Module  Enabled        X.X-X.X      
+ Statistics                           Google Analytics (googleanalytics)                                    Module  Not installed  X.X-X.X             
+ Taxonomy                             TagClouds (tagclouds)                                                 Module  Enabled        X.X-X.            
+ User interface                       IMCE Wysiwyg API bridge (imce_wysiwyg)                                Module  Enabled        X.X-X.X             
+ User interface                       Wysiwyg (wysiwyg)                                                     Module  Enabled                            
+ Views                                Views (views)                                                         Module  Enabled        X.X-X             
+ Views                                Views UI (views_ui)                                                   Module  Enabled        X.X-X             
+ Webform                              Webform (webform)                                                     Module  Enabled        X.X-X.X            
+ Widgets                              Widgets (widgets)                                                     Module  Enabled        X.X-X.X         
+ Widgets                              Widgets Service links (widgets_service_links)                         Module  Not installed  X.X-X.X         
+ XML sitemap                          XML sitemap (xmlsitemap)                                              Module  Enabled        X.X-X.X             
+ XML sitemap                          XML sitemap custom (xmlsitemap_custom)                                Module  Not installed  X.X-X.X             
+ XML sitemap                          XML sitemap engines (xmlsitemap_engines)                              Module  Enabled        X.X-X.X             
+ XML sitemap                          XML sitemap internationalization (xmlsitemap_iX8n)                    Module  Not installed  X.X-X.X             
+ XML sitemap                          XML sitemap menu (xmlsitemap_menu)                                    Module  Enabled        X.X-X.X             
+ XML sitemap                          XML sitemap node (xmlsitemap_node)                                    Module  Enabled        X.X-X.X             
+ XML sitemap                          XML sitemap taxonomy (xmlsitemap_taxonomy)                            Module  Enabled        X.X-X.X             
+ XML sitemap                          XML sitemap user (xmlsitemap_user)                                    Module  Not installed  X.X-X.X             
+ Core                                 Bartik (bartik)                                                       Theme   Disabled       X.X                
+ Core                                 Garland (garland)                                                     Theme   Disabled       X.X                
+ Core                                 Seven (seven)                                                         Theme   Disabled       X.X                
+ Core                                 Stark (stark)                                                         Theme   Disabled       X.X                
+ Other                                CAdmin (cadmin)                                                       Theme   Disabled                           
+ Other                                ctheme (ctheme)                                                       Theme   Enabled        X.X-X.X             
+ Other                                Rubik (rubik)                                                         Theme   Disabled       X.X-X.X       
+ Other                                Tao (tao)                                                             Theme   Disabled       X.X-X.X       
+
