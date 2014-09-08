@@ -160,8 +160,6 @@ mimemail_action,Empty,Empty,Empty,Empty,"Not installed",6.x-1.2,Empty,Empty
 mimemail_compress,Empty,Empty,Empty,Empty,"Not installed",6.x-1.2,Empty,Empty
 minnelli,Empty,Empty,Empty,Empty,Disabled,6.33,Empty,Empty
 mollom,Enabled,X.X-X.X,Empty,Empty,Empty,Empty,Empty,Empty
-mymodule,"Not installed",,Empty,Empty,Empty,Empty,Empty,Empty
-myredirect,Enabled,,Empty,Empty,Empty,Empty,Empty,Empty
 nagios,"Not installed",X.X-X.X,Empty,Empty,Empty,Empty,Empty,Empty
 nfcbiblio,"Not installed",X.X-X.X,Empty,Empty,Empty,Empty,Empty,Empty
 nfccaptcha,"Not installed",X.X-X.X,Empty,Empty,Empty,Empty,Empty,Empty

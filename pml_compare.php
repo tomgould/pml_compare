@@ -6,7 +6,7 @@
  *
  * This is very rough as I wrote it quickly to do a specific job ;)
  *
- * To use this tol you need to write the output for the sites you want to compare
+ * To use this to you need to write the output for the sites you want to compare
  * to files by using drush pml eg:
  *
  *   drush --uri=demo.com pml > demo.com.txt

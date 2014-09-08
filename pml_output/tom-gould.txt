@@ -103,8 +103,6 @@
  Media                                IMCE Mkdir (imce_mkdir)                                               Module  Enabled        X.X-X.X             
  Monitoring                           Nagios monitoring (nagios)                                            Module  Not installed  X.X-X.X             
  Multilingual - Internationalization  Rules translation (rules_iX8n)                                        Module  Not installed  X.X-X.X             
- mymodule                             mymodule (mymodule)                                                   Module  Not installed                      
- myredirect                           myredirect (myredirect)                                               Module  Enabled                            
  Node form columns                    Biblio compatability (nfcbiblio)                                      Module  Not installed  X.X-X.X       
  Node form columns                    CAPTCHA compatability (nfccaptcha)                                    Module  Not installed  X.X-X.X       
  Node form columns                    Node form columns (nodeformcols)                                      Module  Enabled        X.X-X.X       
