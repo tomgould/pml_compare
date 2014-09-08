@@ -2,13 +2,32 @@
 
 /**
  * @file
- *   Compare output from pml from different sites
+ *   Compare output from pml from different sites in a CSV
+ *
+ * This is very rough as I wrote it quickly to do a specific job ;)
+ *
+ * To use this tol you need to write the output for the sites you want to compare
+ * to files by using drush pml eg:
+ *
+ *   drush --uri=demo.com pml > demo.com.txt
+ *
+ * Do this for all the sites you want to compare then put these files somewhere
+ * readable like the pml_output directory
+ *
+ * When you have the files edit the pml_compare.php file to include these
+ * file locations and the execute the script with PHP on the CLI eg:
+ *
+ * $ cd /var/www/pml_compare
+ * $ php pml_compare.php
+ *
+ * This will then write a CSV to the ./csv folder
+ *
  */
 
 $sites = array(
-  'CNUK'   => parse_pml('cnuk_pml.txt'),
-  'BOOMUK' => parse_pml('boomuk_pml.txt'),
-  'BOOMDE' => parse_pml('boomde_pml.txt'),
+  'site1' => parse_pml('pml_output/site1.com.pml.txt'),
+  'site2' => parse_pml('pml_output/site2.com.pml.txt'),
+  'site3' => parse_pml('pml_output/site3.com.pml.txt'),
 );
 
 // Make the container for the CSV and the first column data (module name)
@@ -39,7 +58,7 @@ foreach ($sites as $site => $array) {
 }
 
 // Make a CSV
-$fp = fopen('module_differences.csv', 'w');
+$fp = fopen('csv/module_differences.csv', 'w');
 foreach ($container as $fields) {
   fputcsv($fp, $fields);
 }
