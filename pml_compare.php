@@ -8,6 +8,7 @@
 $sites = array(
   'CNUK'   => parse_pml('cnuk_pml.txt'),
   'BOOMUK' => parse_pml('boomuk_pml.txt'),
+  'BOOMDE' => parse_pml('boomde_pml.txt'),
 );
 
 // Make the container for the CSV and the first column data (module name)
