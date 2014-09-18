@@ -23,7 +23,7 @@ $ php pml_compare.php
 
 This will then write a CSV to the ./csv folder
 
-pmlModule Updates
+Module Updates
 ===========
 
 This script parses the output of "drush pml" and prints out a drush up command
