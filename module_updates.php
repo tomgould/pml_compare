@@ -12,15 +12,18 @@ Drupal                                                6.28               6.33   
 Chaos tools (ctools)                                  6.x-1.10           6.x-1.11          SECURITY UPDATE available
 ";
 
+// how you target your site with Drush
+$site = 'drush @tg';
+
 // Print out the commands
 echo "SECURITY UPDATES\n";
 print_up_commands(
-  'drush @tg', $up_output, 'SECURITY UPDATE'
+  $site, $up_output, 'SECURITY UPDATE'
 );
 
 echo "Update available\n";
 print_up_commands(
-  'drush @tg', $up_output, 'Update available'
+  $site, $up_output, 'Update available'
 );
 
 /**
