@@ -4,8 +4,9 @@
  * @file
  *   Gets a list of the modules that have updates so you can do them individually
  */
-// Paste PML Output in here
+// Paste "drush up -n" Output in here
 $up_output = "
+Name                                       Installed version    Proposed version  Status
 Administration menu (admin_menu)                      6.x-1.8            6.x-1.8           Up to date
 Advanced Poll (advpoll)                               6.x-1.x-dev        6.x-1.x-dev       Update available
 Drupal                                                6.28               6.33              SECURITY UPDATE available
@@ -34,7 +35,7 @@ print_up_commands(
  *   - drush --uri=domain.com
  *   - drush @domain
  * @param string $up_output
- *   The output form drush pml
+ *   The output form drush up
  *
  * @param type $string
  *   The search string to match against
