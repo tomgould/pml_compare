@@ -16,7 +16,6 @@ declare(strict_types=1);
  *   3. Run: php module_updates.php
  *   4. Copy/paste the generated commands
  */
-
 class ModuleUpdates
 {
     private string $site;
@@ -291,4 +290,3 @@ OUTPUT;
 
 $updater = new ModuleUpdates($site, $up_output);
 $updater->run();
-

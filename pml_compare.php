@@ -23,7 +23,6 @@ declare(strict_types=1);
  *
  *   4. Open csv/module_differences.csv
  */
-
 class PmlCompare
 {
     private const INPUT_DIR = 'pml_output';
@@ -132,6 +131,11 @@ class PmlCompare
         return $modules;
     }
 
+    private function warning(string $message): void
+    {
+        echo "[WARNING] {$message}\n";
+    }
+
     /**
      * Normalize version string for consistent comparison.
      */
@@ -140,7 +144,17 @@ class PmlCompare
         if ($version === null || $version === '') {
             return 'dev';
         }
-        return (string) $version;
+        return (string)$version;
+    }
+
+    private function info(string $message): void
+    {
+        echo "[INFO] {$message}\n";
+    }
+
+    private function error(string $message): void
+    {
+        echo "[ERROR] {$message}\n";
     }
 
     /**
@@ -316,24 +330,8 @@ class PmlCompare
 
         echo "\n";
     }
-
-    private function info(string $message): void
-    {
-        echo "[INFO] {$message}\n";
-    }
-
-    private function warning(string $message): void
-    {
-        echo "[WARNING] {$message}\n";
-    }
-
-    private function error(string $message): void
-    {
-        echo "[ERROR] {$message}\n";
-    }
 }
 
 // Run the comparison
 $compare = new PmlCompare();
 $compare->run();
-

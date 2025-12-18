@@ -1,6 +1,7 @@
 # PML Compare
 
 Compare Drupal module lists across multiple sites to identify:
+
 - **Removable modules** - Disabled on all sites, safe to remove from composer
 - **Version mismatches** - Same module with different versions (upgrade candidates)
 - **Partially used modules** - Enabled on some sites, disabled on others
@@ -59,23 +60,23 @@ php pml_compare.php
 
 ## CSV Output Columns
 
-| Column | Description |
-|--------|-------------|
-| Module | Human-readable module name |
-| Machine Name | Drupal machine name (used in composer) |
-| Package | Module package/category |
-| Analysis | Action indicator (see below) |
-| {Site} Status | Enabled/Disabled/Not Present per site |
-| {Site} Version | Version installed on that site |
+| Column         | Description                            |
+|----------------|----------------------------------------|
+| Module         | Human-readable module name             |
+| Machine Name   | Drupal machine name (used in composer) |
+| Package        | Module package/category                |
+| Analysis       | Action indicator (see below)           |
+| {Site} Status  | Enabled/Disabled/Not Present per site  |
+| {Site} Version | Version installed on that site         |
 
 ## Analysis Values
 
-| Value | Meaning | Action |
-|-------|---------|--------|
-| `REMOVABLE` | Disabled on ALL sites | Safe to `composer remove` |
-| `VERSION_MISMATCH` | Different versions across sites | Review and upgrade |
-| `PARTIAL_USE` | Enabled on some sites only | Review if intentional |
-| `CONSISTENT` | Same version, same status everywhere | No action needed |
+| Value              | Meaning                              | Action                    |
+|--------------------|--------------------------------------|---------------------------|
+| `REMOVABLE`        | Disabled on ALL sites                | Safe to `composer remove` |
+| `VERSION_MISMATCH` | Different versions across sites      | Review and upgrade        |
+| `PARTIAL_USE`      | Enabled on some sites only           | Review if intentional     |
+| `CONSISTENT`       | Same version, same status everywhere | No action needed          |
 
 ## Module Updates Script
 
@@ -126,21 +127,24 @@ composer update drupal/ctools --with-all-dependencies
 
 ### Filtering by Package
 
-The CSV includes a "Package" column. Use spreadsheet filtering to focus on specific module types (e.g., "Core", "Contrib", your custom package names).
+The CSV includes a "Package" column. Use spreadsheet filtering to focus on specific module types (e.g., "Core", "
+Contrib", your custom package names).
 
 ### Handling Custom Modules
 
-Custom modules without versions will show as `dev` in the version column. This is normal and helps distinguish them from contrib modules.
+Custom modules without versions will show as `dev` in the version column. This is normal and helps distinguish them from
+contrib modules.
 
 ### Large Sites
 
-For sites with many modules, the JSON export might take a moment. The comparison script handles files of any size efficiently.
+For sites with many modules, the JSON export might take a moment. The comparison script handles files of any size
+efficiently.
 
 ## Migrating from Old Format
 
-If you have old Drupal 6/7 PML text files, you'll need to re-export using the JSON format. The text format is no longer supported.
+If you have old Drupal 6/7 PML text files, you'll need to re-export using the JSON format. The text format is no longer
+supported.
 
 ## License
 
 This project is provided as-is for Drupal site management.
-
