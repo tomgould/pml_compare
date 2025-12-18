@@ -1,3 +1,10 @@
 .idea
 nbproject
 *~
+
+# Output files (regenerated)
+csv/*.csv
+
+# Input files (site-specific)
+pml_output/*.json
+
