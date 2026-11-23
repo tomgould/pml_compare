@@ -1,0 +1,19 @@
+{
+  "name": "tomgould/pml-compare",
+  "description": "Compare Drupal module lists across multiple sites",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tom Gould"
+    }
+  ],
+  "require": {
+    "php": ">=8.0"
+  },
+  "config": {
+    "platform": {
+      "php": "8.0"
+    }
+  }
+}
